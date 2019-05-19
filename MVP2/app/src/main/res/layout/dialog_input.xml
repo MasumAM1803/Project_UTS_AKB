@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='match_parent'
+    android:layout_height='wrap_content'
+    android:orientation='vertical'
+    android:padding='10dp'>
+
+    <EditText
+        android:id='@+id/edittext_nim'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='NIM' />
+
+    <EditText
+        android:id='@+id/edittext_nama'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Nama' />
+
+    <EditText
+        android:id='@+id/edittext_kelas'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Kelas' />
+
+    <EditText
+        android:id='@+id/edittext_telepon'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Telepon'/>
+
+    <EditText
+        android:id='@+id/edittext_email'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Email' />
+
+    <EditText
+        android:id='@+id/edittext_sosmed'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Sosial Media'/>
+
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:layout_marginBottom='5dp'
+        android:layout_marginTop='40dp'>
+
+        <Button
+            android:id='@+id/button_save'
+            android:layout_width='wrap_content'
+            android:layout_height='wrap_content'
+            android:layout_alignParentTop='true'
+            android:layout_marginRight='16dp'
+            android:layout_toStartOf='@+id/button_cancel'
+            android:text='Simpan'
+            android:textAllCaps='false' />
+
+        <Button
+            android:id='@+id/button_cancel'
+            android:layout_width='wrap_content'
+            android:layout_height='wrap_content'
+            android:layout_alignParentEnd='true'
+            android:layout_alignParentTop='true'
+            android:text='Cancel'
+            android:textAllCaps='false' />
+    </RelativeLayout>
+
+</LinearLayout>
