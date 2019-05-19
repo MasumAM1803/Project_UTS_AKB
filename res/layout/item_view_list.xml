@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:orientation='vertical' android:layout_width='match_parent'
+    android:layout_height='wrap_content'
+    android:padding='16dp'>
+
+    <TextView
+        android:id='@+id/nim'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:textSize='16dp'
+        android:textColor='@android:color/black'
+        android:textStyle='bold'
+        android:text='NIM'/>
+    <TextView
+        android:id='@+id/nama'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:text='Nama'/>
+
+    <TextView
+        android:id='@+id/kelas'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:text='Kelas'/>
+
+    <TextView
+        android:id='@+id/NoHp'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:text='Telepon'/>
+
+    <TextView
+        android:id='@+id/email'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:text='Email'/>
+
+    <TextView
+        android:id='@+id/sosmed'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:text='Sosial Media'/>
+
+</LinearLayout>

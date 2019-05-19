@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DataKU</string>
+    <string name="logo">logo</string>
+    <string name="daftar_teman">Daftar Teman</string>
+    <string name="kontak">Kontak</string>
+    <string name="profil">Profil</string>
+    <string name="nama">Masum Abdul Matin</string>
+    <string name="nim">10116342</string>
+    <string name="kelas">IF 8</string>
+    <string name="deskripsi">Saya adalah seorang siswa Universitas Komputer Indonesia</string>
+    <string name="kosoong"></string>
+    <string name="img">IMG</string>
+    <string name="nomor">+6282219366***</string>
+    <string name="kontak_saya">Kontak Saya</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="email">Email</string>
+    <string name="child_masum">child.masum@gmail.com</string>
+    <string name="instagram">Instagram</string>
+    <string name="abdul_note">abdul.note</string>
+</resources>
